@@ -1,0 +1,152 @@
+* {
+  box-sizing: border-box;
+}
+
+.palette {
+  background-color: #06D6A0;
+  background-color: #26547C;
+  background-color: #EF476F;
+  background-color: #FFD166;
+  background-color: #FFFCF9;
+}
+html{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+img{
+    width: 100%;
+}
+body {
+    display: block
+    background-color: green;
+    margin:0px;
+}
+
+div {
+    display: block;
+}
+
+header{
+    text-align: center;
+    padding: 0px;
+    background-color: #06D6A0;
+
+}
+
+.logo {
+    margin: 0;
+    color:white;
+    font-size: 30px;
+}
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+li{
+    display: list-item;
+}
+
+.call-to-action, .about, .products{
+    padding:30px 20px;
+}
+.call-to-action{
+    background-color: #FFD166;
+}
+.nav-item{
+    display: inline-block;
+}
+.products{
+    background-color: #F2F2F2;
+}
+.about {
+    background-color: #26547C;
+}
+.team {
+    overflow: hidden;
+}
+.team-fun, .team-values, .team-meow{
+    float: left;
+    width: 33.3333%;
+    text-align: center;
+    color: #EF476F;
+    text-transform: uppercase;
+}
+.team p {
+    color: white;
+}
+
+
+@media screen and (min-width: 550px){
+
+  header {
+    overflow: hidden;
+    height: 60px;
+    padding: 0 20px;
+  }
+
+  .logo {
+    float: left;
+    line-height: 60px;
+    font-size: 18px;
+
+  }
+
+  .navbar {
+    float: right;
+    padding: 0;
+  }
+
+  .nav-item {
+    display: inline-block;
+    margin-right: 10px;
+    line-height: 60px;
+  }
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+
+  .hero{
+    overflow: hidden;
+    background-color: #26547C;
+    color: white;
+  }
+
+  .hero-image{
+    float:left;
+    width: 60%;
+  }
+
+  .hero-content{
+    font-size: 25px;
+    width:40%;
+    float:left;
+  }
+  .product-wrapper {
+    overflow: hidden;
+  }
+  .product-item {
+    float: left;
+    width:33%;
+    padding:10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
